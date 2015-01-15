@@ -1,47 +1,47 @@
 <% content_for :title do %>PhotoRoto<% end %>
 <% content_for :description do %>This, is PhotoRoto!<% end %>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
- <!--  <ol class="carousel-indicators">
+  <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
     <li data-target="#myCarousel" data-slide-to="4"></li>
     <li data-target="#myCarousel" data-slide-to="5"></li>
-  </ol> -->
+  </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img src="http://lorempixel.com/1170/800/city/9">
+      <%= image_tag "sanfrancisco.jpg" %>
       <div class="carousel-caption text-center">
         <h4><%= Visitor::IMAGE_LABELS[0]%></h4>
       </div>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/1170/800/city/7">
+      <%= image_tag "sydney.jpg" %>
       <div class="carousel-caption text-center">
         <h4><%= Visitor::IMAGE_LABELS[1]%></h4>
       </div>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/1170/800/city/6">
+      <%= image_tag "paris.jpg" %>
       <div class="carousel-caption text-center">
         <h4><%= Visitor::IMAGE_LABELS[2]%></h4>
       </div>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/output/cats-q-c-1170-800-5.jpg">
+      <%= image_tag "catchillin.jpg" %>
       <div class="carousel-caption text-center">
         <h4><%= Visitor::IMAGE_LABELS[3]%></h4>
       </div>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/output/cats-q-g-1170-800-10.jpg">
+      <%= image_tag "ontheprowl.jpg" %>
       <div class="carousel-caption text-center">
       	<h4><%= Visitor::IMAGE_LABELS[4]%></h4>
       </div>
     </div>
     <div class="item">
-      <img src="http://lorempixel.com/output/cats-q-g-1170-800-6.jpg">
+      <%= image_tag "runninthelot.jpg" %>
       <div class="carousel-caption text-center">
       <h4><%= Visitor::IMAGE_LABELS[5]%></h4>
       </div>
