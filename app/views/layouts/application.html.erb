@@ -12,9 +12,21 @@
     <header>
       <%= render 'layouts/navigation' %>
     </header>
-    <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
+    <main role="main" class="container">
+      <div class="row">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
+      </div>
     </main>
   </body>
+  <footer class="container">
+    <div class="row">
+      <section class="col-sm-4">
+      Copyright 2015
+      </section>
+      <section class="col-sm-8">
+      All rights reserved
+      </section>
+    </div>
+  </footer>
 </html>
