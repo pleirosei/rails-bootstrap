@@ -7,7 +7,7 @@ class VisitorsController < ApplicationController
 	def create
 		@visitor = Visitor.new(secure_params)
 		if @visitor.valid?
-			flash.now[:notice] = "Chose #{@visito.favorite}"
+			flash.now[:notice] = "Chose #{@visitor.favorite}"
 			render :new
 		else
 			render :new

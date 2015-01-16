@@ -16,7 +16,7 @@ end
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'thin'
-gem 'activerecord-tableless'
+gem "activerecord-tableless", "~> 1.0"
 gem 'simple_form'
 group :development do
   gem 'better_errors'

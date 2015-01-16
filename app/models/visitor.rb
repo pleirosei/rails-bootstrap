@@ -1,3 +1,5 @@
+require 'activerecord-tableless'
+
 class Visitor < ActiveRecord::Base
 	has_no_table
 	column :favorite, :string
